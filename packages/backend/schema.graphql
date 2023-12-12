@@ -1,0 +1,24 @@
+// schema.graphql
+type Product {
+  id: Int!
+  sku: String!
+  name: String!
+  price: Float!
+  quantity: Int!
+}
+
+type Query {
+  products: [Product!]!
+  product(id: Int!): Product
+}
+
+type Mutation {
+  createProduct(input: CreateProductInput!): Product!
+}
+
+input CreateProductInput {
+  sku: String!
+  name: String!
+  price: Float!
+  quantity: Int!
+}

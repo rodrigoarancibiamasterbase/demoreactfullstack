@@ -1,0 +1,50 @@
+/* src/components/Login.css */
+
+.login-container {
+  background-color: darkslategrey;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  width: 60vw;
+  margin-left:20vw;
+  margin-right:20vw;
+  margin-top: 20vh;
+  border-radius: 5%;
+  }
+  
+  .login-form {
+ 
+    display: flex;
+    width: 50vh;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+
+  }
+  
+  .login-form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .login-form button {
+    background-color: #0078d4;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .login-form {
+   
+    height: 80vh;
+    margin: 0;
+}
+  

@@ -1,0 +1,7 @@
+.contentbody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    margin: 0;
+}

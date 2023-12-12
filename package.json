@@ -1,0 +1,7 @@
+{
+  "name": "my-demo-table",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
