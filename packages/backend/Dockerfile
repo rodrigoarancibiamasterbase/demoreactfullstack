@@ -16,7 +16,7 @@ RUN npm install
 COPY . .
 
 # Build the Prisma client
-RUN npx prisma generate
+RUN npx prisma generate  --schema=packages/backend/prisma/schema.prisma
 
 # Expose the port your app runs on
 EXPOSE 3001
