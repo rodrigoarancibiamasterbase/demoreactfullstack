@@ -10,8 +10,7 @@ COPY package*.json ./
 # Install dependencies
 RUN npm install
 
-# Install Prisma globally
-RUN npm install -g @prisma/cli
+
 
 # Copy the rest of the application code
 COPY . .
