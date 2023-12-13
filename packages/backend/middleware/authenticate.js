@@ -1,6 +1,10 @@
 
 
 import jwt from 'jsonwebtoken';
+import dotenv from 'dotenv';
+dotenv.config()
+
+
 const SECRET_KEY = process.env.WEBTOKEN_SECRET_KEY;
 const authenticateToken = (req, res, next) => {
   const token = req.header('Authorization');

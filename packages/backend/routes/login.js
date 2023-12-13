@@ -1,5 +1,9 @@
 import express from "express";
 import jwt from "jsonwebtoken";
+import dotenv from 'dotenv';
+dotenv.config()
+
+
 const router = express.Router();
 const SECRET_KEY = process.env.WEBTOKEN_SECRET_KEY;
 import authenticateToken from '../middleware/authenticate.js';
